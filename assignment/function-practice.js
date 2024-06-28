@@ -103,38 +103,17 @@ console.log('Test - should return false', isFirstLetter('a', 'cat'));
 // 9. Function to return the sum of all numbers in an array
 function sumAll(array) {
   let sum = 0;
-  let i = 0;
   // TODO: loop to add items
-while (i < array.length) {
-  sum = sum + array[i];
-  i ++;
-}
-return sum;
+
   // TODO: return the sum
 }
-let simpleArray = [1,2,3,4,5];
-let totalArraySum = sumAll(simpleArray);
-
-console.log('Sum of array', totalArraySum);
 
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
 //     return an empty array. Note: The input array should not change.
-function allPositive(array) {
-  let positives = [];
-   for (let i=0; i < array.length; i++ ){  
-    if (array[i] > 0){
-      positives.push(array[i]); 
-    }
-  }
-    return positives;
+function allPositive() {
+
 }
-
-let posNegArray = [-1,-2,-3,0,1,2,3];
-let newPositiveArray = allPositive(posNegArray);
-
-console.log('positive and Negative Array: ', posNegArray);
-console.log('New Positive Array: ', newPositiveArray);
 
 
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
