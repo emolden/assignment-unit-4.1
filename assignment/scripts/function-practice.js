@@ -141,6 +141,12 @@ console.log('New Positive Array: ', newPositiveArray);
 //     CodeWars(https://www.codewars.com/). Then describe it 
 //     here in a comment, write the function, and test it!
 
+//Create a function that takes a number as an argument. Add up 
+//all the numbers from 1 to the number you passed to the function. 
+//For example, if the input is 4 then your function should return 
+//10 because 1 + 2 + 3 + 4 = 10.
+
+
 
 // DO NOT MODIFY
 // Used for automated testing
