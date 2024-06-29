@@ -159,7 +159,17 @@ console.log('New Positive Array: ', newPositiveArray);
 //For example, if the input is 4 then your function should return 
 //10 because 1 + 2 + 3 + 4 = 10.
 
+function sumFactorial(num) {
+  let totalSum = 0;
+  console.log('in sumFactorial', num);
+  for (num; num > 0; num--) { 
+    totalSum += num;
+    console.log ('in loop ', totalSum);
+    }
+    return totalSum;
+  }
 
+console.log('Test sumFactorial - should be 10', sumFactorial(4));
 
 // DO NOT MODIFY
 // Used for automated testing
