@@ -41,10 +41,8 @@ console.log('Test multiplyThree- should say 24: ', multiplyThree(2, 3, 4));
 //    or greater than zero, and false otherwise
 function isPositive(number) {
   console.log('In isPositive function. The current parameter is: ', number);
-  if (number > 0) {
-    return true;
-  }
-  return false;
+  let checkPositive = (number > 0) ? true : false;
+  return checkPositive;
 }
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
@@ -56,10 +54,8 @@ console.log('Test isPositive - should say "false": ', isPositive(-2.4));
 //    array is empty, return `undefined`.
 function getLast(array) {
   console.log('In getLast function. The curernt parameter is: ', array);
-  if (array.length > 0) {
-    return array[array.length -1];
-  }
-  return undefined;
+  let lastItem = (array.length > 0) ? array[array.length-1] : undefined;
+  return lastItem
 }
 
 console.log('Test getLast- should return "three": ', getLast(['one', 'two', 'three']));
